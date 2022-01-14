@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <title>BOOTSTRAP_components</title>
+  </head>
+  <body>
+    <h1 class="title">Study and practice on BOOTSTRAP-components</h1><br>
+
+  <div class="container">
+     <p class="topics">ALERT</p>
+     <div class="alert alert-warning alert-dismissible fade show" role="alert">
+       <h3 class="mb-0">Build vertically collapsing accordions in combination with our Collapse <a href="https://www.jsdelivr.com/" class="alert-link">JavaScript</a> plugin.</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+     </div>
+     <p class="topics">ACCORDION</p>
+     <div class="row">
+       <div class="col-lg-12"> 
+
+            <div class="accordion" id="accordionEx1">
+              <!-- item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                Item #1
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionEx1">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                Item #2
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionEx1">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                Item #3
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionEx1">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                Item #4
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionEx1">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <!-- item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                Item #5
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionEx1">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div><br>
+<p class="topics">ACCORDION-flush</p>
+     
+     <div class="row">
+       <div class="col-lg-12">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+              <!-- flush 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                  Item #1
+                </button>
+              </h2>
+              <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <!-- flush 2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                  Item #2
+                </button>
+              </h2>
+              <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <!-- flush 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                  Item #3
+                </button>
+              </h2>
+              <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+       </div>
+     </div><br>
+ <p class="topics">BADGE</p><br>
+   <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+   <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+   <h3>Example heading <span class="badge bg-secondary">New</span></h3><br>
+    
+    <button type="button" class="btn btn-primary">
+     Notifications <span class="badge bg-danger">99+</span>
+    </button><br><br>
+
+    <span class="badge bg-primary">Primary</span>
+    <span class="badge bg-secondary">Secondary</span>
+    <span class="badge bg-success">Success</span>
+    <span class="badge bg-danger">Danger</span>
+    <span class="badge bg-warning text-dark">Warning</span>
+    <span class="badge bg-info text-dark">Info</span>
+    <span class="badge bg-light text-dark">Light</span>
+    <span class="badge bg-dark">Dark</span><br><br>
+
+    <span class="badge rounded-pill bg-primary">Primary</span>
+    <span class="badge rounded-pill bg-secondary">Secondary</span>
+    <span class="badge rounded-pill bg-success">Success</span>
+    <span class="badge rounded-pill bg-danger">Danger</span>
+    <span class="badge rounded-pill bg-warning text-dark">Warning</span>
+    <span class="badge rounded-pill bg-info text-dark">Info</span>
+    <span class="badge rounded-pill bg-light text-dark">Light</span>
+    <span class="badge rounded-pill bg-dark">Dark</span><br><br><br>
+<p class="topics">Breadcrumb</p>
+<div class="row">
+  <div class="col-lg-12">
+    <div class="w-100 bg-light">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="library.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="library.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="data.html">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="library.html">Library</a></li>
+          <li class="breadcrumb-item"><a href="data.html">Data</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div><br>
+<p class="topics">BUTTONS</p>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-success">Success</button><br>
+
+    <div class="pt-3">
+      <a class="btn btn-primary" href="#" role="button">Link</a>
+      <button class="btn btn-primary" type="submit">Button</button>
+      <input class="btn btn-primary" type="button" value="Input">
+      <input class="btn btn-primary" type="submit" value="Submit">
+      <input class="btn btn-primary" type="reset" value="Reset">
+    </div>
+    <div class="pt-3">
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <button type="button" class="btn btn-outline-light">Light</button>
+      <button type="button" class="btn btn-outline-dark">Dark</button>
+    </div>
+
+    <div class="pt-3">
+      <button type="button" class="btn btn-secondary btn-lg" disabled>Disabled Button</button>
+    </div>
+
+    <div class="d-grid gap-2 pt-3">
+      <button class="btn btn-primary" type="button">Block buttons</button>
+      <button class="btn btn-primary" type="button">Block buttons</button>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto pt-3">
+      <button class="btn btn-primary" type="button">half-width block button</button>
+      <button class="btn btn-primary" type="button">half-width block button</button>
+    </div>
+    <div class="pt-3">
+      <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Active toggle button</button><br>
+      <button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Disabled toggle button</button>
+    </div><br><br>
+<p class="topics">BUTTONS GROUP</p>  
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-primary">Left</button>
+      <button type="button" class="btn btn-primary">Middle</button>
+      <button type="button" class="btn btn-primary">Right</button>
+    </div><br>
+    <div class="btn-group pt-3">
+      <a href="#" class="btn btn-primary active" aria-current="page">Active link</a>
+      <a href="#" class="btn btn-primary">Link</a>
+    </div> <br> 
+    <div class="btn-group pt-3" role="group" aria-label="mixed styles ">
+      <button type="button" class="btn btn-warning">Mixed Left</button>
+      <button type="button" class="btn btn-success">Mixed Middle</button>
+      <button type="button" class="btn btn-danger">Mixed Right</button>
+    </div><br>
+    <div class="btn-group pt-3" role="group" aria-label="outlined ">
+      <button type="button" class="btn btn-outline-danger">Outline Left</button>
+      <button type="button" class="btn btn-outline-success">Outline Right</button>
+    </div>
+    <div class="btn-group pt-3" role="group" aria-label="Basic checkbox toggle button group">
+      <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+      <label class="btn btn-outline-danger" for="btncheck">Basic checkbox </label>
+
+      <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+      <label class="btn btn-outline-warning" for="btncheck2">Basic checkbox 2</label>
+    </div>
+    <div class="btn-toolbar pt-3" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group me-3" role="group" aria-label="First group">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">22</button>
+      </div>
+      <div class="btn-group me-4" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-secondary">00</button>
+        <button type="button" class="btn btn-secondary">6</button>
+        <button type="button" class="btn btn-secondary">78</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-info">800</button>
+      </div>
+    </div>
+    <div class="btn-toolbar mb-3 pt-3" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group me-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-outline-secondary">1</button>
+        <button type="button" class="btn btn-outline-secondary">2</button>
+      </div>
+      <div class="input-group">
+        <div class="input-group-text" id="btnGroupAddon">@</div>
+        <input type="text" class="form-control" placeholder="Input group" aria-label="Input group" aria-describedby="btnGroupAddon">
+      </div>
+    </div><br>
+    <div class="pt-3">
+      <div class="btn-group btn-group-lg btn-outline-secondary" role="group" aria-label="btn group Sizing">size 1</div>
+      <div class="btn-group btn-group-md btn-outline-danger" role="group" aria-label="btn group Sizing">size 2</div>
+      <div class="btn-group btn-group-lg btn-outline-success" role="group" aria-label="btn group Sizing">size 3</div>
+    </div><br>
+
+    <div class="btn-group pt-3" role="group" aria-label="Button group with nested dropdown">
+      <button type="button" class="btn btn-primary">100</button>
+      <button type="button" class="btn btn-success">288</button>
+
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" 
+          data-bs-toggle="dropdown"aria-expanded="false">
+          Dropdown
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+          <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+          <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+        </ul>
+      </div>
+    </div><br>
+<p class="topics">btn-group-vertical</p><br>
+    <div class="btn-group-vertical pt-3">
+      <button type="button" class="btn btn-secondary">11</button>
+      <button type="button" class="btn btn-success">22</button>
+      <button type="button" class="btn btn-danger">33</button>
+      <button type="button" class="btn btn-warning">88</button>
+      <button type="button" class="btn btn-info">69</button><br>
+      <button type="button" class="btn btn-warning">Left</button>
+      <button type="button" class="btn btn-success">Middle</button>
+      <button type="button" class="btn btn-danger">Right</button><br><br>
+    </div><br>
+    <div class="btn-group-vertical me-4" role="group" aria-label="Second group">
+      <button type="button" class="btn btn-secondary">00</button>
+      <button type="button" class="btn btn-secondary">6</button>
+      <button type="button" class="btn btn-secondary">78</button>
+    </div><br><br>
+    <div class="btn-group-vertical pt-3" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group me-3" role="group" aria-label="First group">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">22</button>
+      </div>
+      <div class="btn-group me-4" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-secondary">00</button>
+        <button type="button" class="btn btn-secondary">6</button>
+        <button type="button" class="btn btn-secondary">78</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-info">800</button>
+      </div>
+    </div><br>
+<p class="topics">CARDS</p><br>
+    <div class="card" style="width: 18rem;">
+      <img src="images/img.jpg" class="card-img-top" alt="BOOTSTRAP-components">
+      <div class="card-body">
+        <h5 class="card-title">Abdullah Al Mamun</h5>
+        <p class="card-text">Hi, this is Mamun. From Jahangirnagar University.</p>
+        <a href="https://www.facebook.com/abd.maamun" class="btn btn-danger">DM me on FACEBOOK</a>
+      </div>
+    </div><br><br>
+
+    <div class="card">
+      <div class="card-body">
+        THIS IS CARD BODY
+      </div>
+    </div><br><br>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">SSB</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Shikhbe Shobai</h6>
+        <p class="card-text">Shikhbe Shobai provides 100% project oriented training. It means you will do real time client's projects as your assignments. Mentors will make you involved in dealing with the real client's experience.</p>
+        <a href="https://shikhbeshobai.com/courses" class="card-link">Card link</a>
+        <a href="https://www.facebook.com/groups/shikhbeshobai/" class="card-link">Another link</a>
+      </div>
+    </div><br><br>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/img2.jpg" class="card-img-top" alt="BOOTSTRAP-components">
+      <div class="card-body">
+        <h5 class="card-title">MAMUN</h5>
+        <p class="card-text">Hi, this is Mamun. From Jahangirnagar University.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">fb</li>
+        <li class="list-group-item">github</li>
+        <li class="list-group-item">linkdein</li>
+      </ul>
+      <div class="card-body">
+        <a href="https://www.facebook.com/abd.maamun" class="card-link">fb</a>
+        <a href="https://github.com/AbdMaamun" class="card-link">github</a>
+      </div>
+    </div><br>
+
+    <div class="card">
+      <div class="card-header">
+       Quote
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>A well-known quote, contained in a blockquote element.</p>
+          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+      </div>
+    </div><br>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/img.jpg" class="card-img-top" alt="BOOTSTRAP-components">
+          <div class="card-body">
+            <h5 class="card-title">Abdullah Al Mamun</h5>
+            <p class="card-text">Hi, this is Mamun. From Jahangirnagar University.</p>
+            <a href="https://www.facebook.com/abd.maamun" class="btn btn-danger">DM me on FACEBOOK</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+         <div class="card" style="width: 18rem;">
+          <img src="images/img.jpg" class="card-img-top" alt="BOOTSTRAP-components">
+          <div class="card-body">
+            <h5 class="card-title">Abdullah Al Mamun</h5>
+            <p class="card-text">Hi, this is Mamun. From Jahangirnagar University.</p>
+            <a href="https://www.facebook.com/abd.maamun" class="btn btn-danger">DM me on FACEBOOK</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+         <div class="card" style="width: 18rem;">
+          <img src="images/img.jpg" class="card-img-top" alt="BOOTSTRAP-components">
+          <div class="card-body">
+            <h5 class="card-title">Abdullah Al Mamun</h5>
+            <p class="card-text">Hi, this is Mamun. From Jahangirnagar University.</p>
+            <a href="https://www.facebook.com/abd.maamun" class="btn btn-danger">DM me on FACEBOOK</a>
+          </div>
+        </div>
+      </div>
+    </div><br>
+<p class="topics">List groups</p>
+    <div class="pt-3">
+      <div class="card" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+      </div><br>
+      <div class="card" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-footer">
+          Card footer
+        </div>
+      </div>
+    </div><br>
+
+<p class="topics">Kitchen sink</p>
+    <div class="card" style="width: 18rem;">
+      <img src="images/img2.jpg" class="card-img-top" alt="BOOTSTRAP-components">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+<p class="topics">grid markup</p>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card text-end">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<p class="topics">Navigation</p>
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+           <a class="nav-link active" aria-current="true" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+<p class="topics">Image caps</p>
+    <div class="card mb-3">
+      <img src="images/img2.jpg" class="card-img-top" alt="BOOTSTRAP-components">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+      <img src="images/img.jpg" class="card-img-bottom" alt="BOOTSTRAP-components">
+    </div>
+<p class="topics">Image overlays</p> 
+    <div class="card bg-dark text-white text-center">
+      <img src="images/img.jpg" class="card-img" alt="BOOTSTRAP-components">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
+    </div> <br>  
+<p class="topics">Card styles</p> 
+    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+      <div class="card-header">Header</div>
+        <div class="card-body">
+          <h5 class="card-title">Secondary card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+          <div class="card-body text-danger">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card border-warning mb-3" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Warning card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<p class="topics">Card layout</p>
+    <div class="card-group">
+
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div><br>
+
+    <div class="row row-cols-1 row-cols-lg-3 g-6">
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title1</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title2</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title3</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title4</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+       <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title5</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+       <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title6</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<p class="topics">Close button</p>
+    <button type="button" class="btn-close btn-close-black" aria-label="Close"></button>
+    <button type="button" class="btn-close btn-close-black" disabled aria-label="Close"></button><br>
+
+<p class="topics">Dropdowns</p>
+    <div class="dropdown pt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" 
+        data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div><br>
+    <!-- Example single danger button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" 
+        aria-expanded="false">
+        Action
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Action
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Action
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Action
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Action
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Action
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+    </div>
+  </div>      
+    <!--  JS links -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
